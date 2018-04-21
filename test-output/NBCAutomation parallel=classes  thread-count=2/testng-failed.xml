@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NBCAutomation parallel=classes  thread-count=2]">
+  <test name="NBCAutomation(failed)">
+    <parameter name="Browser" value="Remote"/>
+    <classes>
+      <class name="com.nbcd.Test.TCHomePage">
+        <methods>
+          <include name="MenuDetails" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="endReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCHomePage -->
+    </classes>
+  </test> <!-- NBCAutomation(failed) -->
+</suite> <!-- Failed suite [NBCAutomation parallel=classes  thread-count=2] -->
