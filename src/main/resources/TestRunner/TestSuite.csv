@@ -1,0 +1,679 @@
+TestName,TestClass,Execution,ExecutionType,Browser,BrowserVersion,OS,OSVersion
+TCHomePage,com.nbcd.Test.TCHomePage,No,Chrome,Chrome,63,Windows,7
+ShowHomePage_043VerifyTwitterTags,com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags_DBB_3079,No,Chrome,Chrome,63,Windows,7
+FaceBook Tags,com.nbcd.Test.TCShowHomePage_043VerifyFaceBookTags_DBB_3078,No,Chrome,Chrome,63,Windows,7
+ShowHomePage_043VerifyFaceBook_SNLTags,com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags_DBB_3078,No,Chrome,Chrome,63,Windows,7
+ShowHome_VerifyThe300x250_Display_Ad,com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad_DBB_3679,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verifymetatags,com.nbcd.Test.TCShowHomePage_VerifymetaTags_DBB_3087,No,Chrome,Chrome,63,Windows,7
+ShowHome_VerifyFilter,com.nbcd.Test.TCShowHomePage_Verify_Filter_DBB_3687,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Show_Name,com.nbcd.Test.TCShowHomePage_Verify_Show_Name_NBCRESP_793,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Dynamic_Lead_Slide,com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide_NBCRESP_1163,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyNoBodyAd_NBCRESP_3690,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_About_The_Show,com.nbcd.Test.TCShowHomePage_Verify_About_The_Show_NBCRESP_1573,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyClipssectionisabovefullepisodessectionforLatenighshows_NBCRESP783,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Latest_Clips_Section,com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section_DBB_3059,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_full_Episode_section,com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section_DBB_3058,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Ad_Banner,com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner_DBB_3062,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Add_Guest_Schedule,com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule_DBB_3689,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Description_Canonical,com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical_DBB_3686,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Verify_feature_Section_metadata_NBCRESP_812,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage2_Showhomepage_Featuregif_3707,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Verify_Meta_Tag_for_Apple_NBCRESP_1012,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Verify_Archived_Shows_NBCRESP_1970,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Responsive_Navigation_Bar,com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar_DBB_3060,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_Responsive_Navigation_Bar,com.nbcd.Test.TCShowHomePage_VerifyClipsFilter_showhomepage,No,Chrome,Chrome,63,Windows,7
+ShowHome_Verify_About_Section,com.nbcd.Test.TCShowHomePage_Verify_About_Section_NBCRESP_804,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyMoreBtn_NBCRESP_1573,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyelementsofPredictiveTextInputFieldanditsBehaviorsinVODpage_NBCRESP3627,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifywhetherclipsareplayedinHereticsite_NBCRESP3831,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Verify_DLS_3680 ,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyNONPlayerExperienceforEpisode_NBCRESP3809,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowVideoDetailPage_VerifySchema_org_VideoCarousels_3685,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowVideoDetailPage_VerifySchema_org_BroadcastEvent_3080,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyFeatureMosaicSection_NBCRESP_3688,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_Watch_Live_Now,com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now_NBCRESP_1956,No,Chrome,Chrome,63,Windows,7
+Schedule_Show Name Links,com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link_NBCRESP_1213,No,Chrome,Chrome,63,Windows,7
+Schedule_Visit_Site_Link,com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink_NBCRESP_1957,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_SchedulePage_Timeline,com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline_DBB_3815,No,Chrome,Chrome,63,Windows,7
+Schedule,com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Appending_url_NBCRESP_1054,No,Chrome,Chrome,63,Windows,7
+Schedule,com.nbcd.Test.TCSchedulePage_Verify_NBCRESP_3663  ,No,Chrome,Chrome,63,Windows,
+Schedule,com.nbcd.Test.TCSchedulePage_Verify_Schedule_titledesccanocical,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_Schedule_Section_Page,com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section_NBCRESP_856,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_Schedule_Section_Page_Title,com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile_DBB_3821,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_Schedule_Section_Header_Navigation,com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation_DBB_3826,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_Schedule_Page_Whats_On_Header,com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page_DBB_3813,No,Chrome,Chrome,63,Windows,7
+Schedule_Verify_Schedule_Page_Watch_Live_Show,com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show_NBCRESP_1956,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_redirect_rules,com.nbcd.Test.TCAllVideosPage_redirect_rules_DBB_3761,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_Metadata_Enhancements,com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements_DBB_3727,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_Episodes_Sorted,com.nbcd.Test.TCAllVideosPage_Episodes_Sorted_NBCRESP_1438,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_Video_Detail_Page,com.nbcd.Test.TCAllVideosPage_video_detail_page_DBB_3056,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_Video_Detail_Page,com.nbcd.Test.TCAllVideosPage_Verify_Episodespage_Topbanner_DBB_3732,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_All_video_Landing_Page,com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page_3798,No,Chrome,Chrome,63,Windows,7
+AllVideosPage_Meta -Tag for apple,com.nbcd.Test.TCAllVideosPage_Meta_tag_NBCRESP_1012,No,Chrome,Chrome,63,Windows,7
+CreditLandingPage_Verify_As_Character,com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character_NBCRESP_1312,No,Chrome,Chrome,63,Windows,7
+CreditLandingPage_Verify_As_Coach,com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach_NBCRESP_1341,No,Chrome,Chrome,63,Windows,7
+CreditLandingPage_Verify_As_Contestant,com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant_NBCRESP_1312,No,Chrome,Chrome,63,Windows,7
+CreditLandingPage_Verify_As_Contestant,com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_as_OtherThanCoachorContestant_NBCRESP_1341,No,Chrome,Chrome,63,Windows,7
+CreditDetails_Character,com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character_NBCRESP_1303,No,Chrome,Chrome,63,Windows,7
+CreditDetails,com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_as_Contestant_NBCRESP_1307,No,Chrome,Chrome,63,Windows,7
+CreditDetails_Everyone,com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone_NBCRESP_1304,No,Chrome,Chrome,63,Windows,7
+ShowInnerEpisodePage_BodyAd,com.nbcd.Test.TCShowInnerEpisode_BodyAd_NBCRESP_1065,No,Chrome,Chrome,63,Windows,7
+ShowInnerEpisodePage_RespNavBar,com.nbcd.Test.TCShowInnerEpisode_RespNavBar_NBCRESP_1075,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta_NBCRESP_1082,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_LoadMore_NBCRESP_1344,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_OgTweet_NBCRESP_1073,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_titledescan_NBCRESP_1078,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_applinks_NBCRESP_2259,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_schemaorgs_NBCRESP_1080,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_eptitledescan_NBCRESP_1078,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_seo_NBCRESP_1081,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_ehsf_NBCRESP_1067,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_availablenav,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_urlredirect_NBCRESP_1066,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Bannerad_NBCRESP_1063,No,Chrome,Chrome,63,Windows,7
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_sorryvideo,No,Chrome,Chrome,63,Windows,7
+TVE_LiveVod,com.nbcd.Test.TCTVE_Livepagetve,No,Chrome,Chrome,63,Windows,7
+TVE_AuthVod,com.nbcd.Test.TCTVE_Authvod,Yes,Chrome,Chrome,63,Windows,7
+Global_Showhome_Page_Clips,com.nbcd.Test.TCGlobalHomePage_BodyAd_NBCRESP_8,No,Chrome,Chrome,63,Windows,7
+Global_Showhome_Page_Clips,com.nbcd.Test.TCGlobalHomePage_BannerAd_NBCRESP_15,No,Chrome,Chrome,63,Windows,7
+Global_Showhome_Page_Clips,com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav,No,Chrome,Chrome,63,Windows,7
+Breaking Newsbar,com.nbcd.Test.TCBreakingNewsBar_NBCRESP_1791,No,Chrome,Chrome,63,Windows,7
+GlobalHomepageTitledescriptioncanonical,com.nbcd.Test.TCGlobalHomePage_titledescan_NBCRESP_1,No,Chrome,Chrome,63,Windows,7
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_GlobalShowhomePage_NBCRESP_19,No,Chrome,Chrome,63,Windows,7
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_GlobalHomepage_apple_1012,No,Chrome,Chrome,63,Windows,7
+Global_Showhome_Page_Clips,com.nbcd.Test.TCGlobalHomePage_Global_Showhome_Page_Clips_NBCRESP_1654,No,Chrome,Chrome,63,Windows,7
+ContactUs,com.nbcd.Test.TCContactUsPage_ErrorMessageValidation_1567,No,Chrome,Chrome,63,Windows,7
+ContactUs,com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback_1567,No,Chrome,Chrome,63,Windows,7
+ContactUs,com.nbcd.Test.TCContactVerifySelectTopicListItems_1842,No,Chrome,Chrome,63,Windows,7
+ContactUs,com.nbcd.Test.TCContactUs_CreateContactUsRequest_1528,No,Chrome,Chrome,63,Windows,7
+AppsLandingPage,com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage,No,Chrome,Chrome,63,Windows,7
+AllShowPage,com.nbcd.Test.TCAllShowsPage_VerifyAllShowPageFunctionality_2275,No,Chrome,Chrome,63,Windows,7
+AllShowPage,com.nbcd.Test.TCAllShowsPage_VerifyAllShowPageThrowback_2275,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyLivestreampageSupportedregion_1729,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails_1874,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyMVPDListPicker_1875,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut_2106,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD_1874,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer_1873,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated_1873,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut_1752,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV_2095,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut_2093,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage_2093,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD_2093,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton_2093,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_Livepage_Authkill,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyRolloverbehavoir_navigationusingarrowkeysPredictiveText_NBCRESP2106,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_Livepage_navelement_5488,No,Chrome,Chrome,63,Windows,7
+ActivationPage,com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData_2598,No,Chrome,Chrome,63,Windows,7
+ActivationPage,com.nbcd.Test.TCActivationPage_VerifyGeneralLayout_2607,No,Chrome,Chrome,63,Windows,7
+ActivationPage,com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode_2613,No,Chrome,Chrome,63,Windows,7
+ActivationPage,com.nbcd.Test.TCActivationPage_TCActivationPage_VerifySucessPage_2751,No,Chrome,Chrome,63,Windows,7
+,com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcodeAlphabetic_2613,No,Chrome,Chrome,63,Windows,7
+,com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcodeAlphaNumeric_2613,No,Chrome,Chrome,63,Windows,7
+ActivationPage,com.nbcd.Test.TCActivationPage_VerifySucessPageCheckMark_2751,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting_3100,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink_2557,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode_3101,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate_3100,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos_3527,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo_3591,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip_3578,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay_3577,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos_3105,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder_3579,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon_1920,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyClassicEarliestairdatetolatestairdate_3100,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_verifyTwittertagclip_NBCRESP_2003,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyNowPlaying,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_verifyTwittertagvideo_NBCRESP_2003,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoPage_VerifyBodyAd_NonPlayer_NBCRESP_1406,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_verifyPreRollAdclip,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Verifymetaforexpired_NBCRESP_1282,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Verify_identityAutoPalying_2499,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode_2178,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixClips_3812,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifySchema_org_FixesVideoDetailPage_3807,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifySchema_org_FixesVideoDetailPage_3808,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Verify_NBCRESP_3822,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_verifyPreRollAdvideo,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyErrorResultEnterButton_2106,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyNonavmultipleResult_2106,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_GuestDetailsArea_2230,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_GuestDetailsArea_2242,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_GuestDetailsArea_2215,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_GuestDetailsfade_2242,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_GuestDetailsAreadropdownnav_2242,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Verifyanimations_2225,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_GuestDetailsAreadetails_2230,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_verify_NBCRESP_5841,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5972,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5108,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5489,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_Without_SignUP_NBCRESP_5489,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_ContentPlayBack_5337,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verifyfavorites_4649,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_3035,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_4633,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_4814,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5711,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5906,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5908,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5972,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_Password_Reset,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_RegularSignUp,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_SpecificLateNightShowNBCRESP_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_Search_Series_OR_Shows_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_search_and_closes_3185,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_Search_by_cast_name_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_Search_for_episode_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_search_no_result_2893,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_Search_Series_Shows_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_Search_for_clips_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_4564 ,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_VerifySweepStakesFormRegister_5982,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_VerifySweepStakesFormFaceBook_5896,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_VerifyBridgeScreenFaceBook_5383,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_VerifyFaceBook_3488,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Signup_withoutmail,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCSeachPage_identityVerify_Search_for_clip_5630,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_verifyscreenaftersuccessfullogin_4531,No,Chrome,Chrome,63,Windows,7
+SearchPage,com.nbcd.Test.TCSearchPage_IdentifyVerify_searchresultbehaviour_5630,No,Chrome,Chrome,63,Windows,7
+SearchPage,com.nbcd.Test.TCSearchPage_Identity_behaviourabilities,No,Chrome,Chrome,63,Windows,7
+SearchPage,com.nbcd.Test.TCSearchPage_IdentifyVerify_SearchforEpisode,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCVerify_identityWatchedBadge95_4306,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCVerify_identityWatchedBadgeVideoReplay_4309,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCVerify_identityWatchedBadge100_4308,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyHeadertextofFeaturessection_990pxandabove_NBCRESP3700,No,Chrome,Chrome,63,Windows,7
+LivePage,com.nbcd.Test.TCLivePage_VerifyLive_NotSupportedRegion_NBCRESP3604,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_key_short_form,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_for_episode,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageVerify_X_Icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_key_short_form ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_ReusableSearch_Bar_Promt_message ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_for_episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchEpisodespageVerify_X_icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_key_short_form ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_for_episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_X_Icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_key_short_form ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_ReusableSearch_Bar_Promt_message ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_for_episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_GlobalHomepageVerify_X_Icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_Verify_x_icon_appspage ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_key_short_form ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_ReusableSearch_Bar_Promt_message ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_for_episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchReusable_VideoDetailpageVerify_X_Icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_key_short_form ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_for_episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_X_Icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_badging_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Behavior_Criteria_Clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Behavior_Criteria_Episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_click_Clear ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Collection_of_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Default_Title ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Episode_meta_data ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_key_short_form ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_previous_search_value ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_search_and_closes ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_by_cast_name ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_for_clips_5630 ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_for_clips ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_for_episode ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_search_negative ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_search_no_result_latest_3_shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_search_no_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_Overlay ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_search_returns_1_result ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_Series_OR_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Search_Series_Shows ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Show_areas_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Show_details ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_show_lockup ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_Subtitle_functionality ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_User_inputs_search_query ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchShowhomepageVerify_X_Icon ,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageVerify_ReusableSearch_Bar_Promt_message,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchScheduleVerify_ReusableSearch_Bar_Promt_message,No,Chrome,Chrome,63,Windows,7
+SearchAllPages,com.nbcd.Test.TCSearchLiveVerify_ReusableSearch_Bar_Promt_message,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Verifyclipisplayedingenereticsitewhendataisnotavailable_NBCRESP3830,No,Chrome,Chrome,63,Windows,7
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_VerifyRelatedClipsAreadisplayedinGuestDetailpage_NBCRESP4124,No,Chrome,Chrome,63,Windows,7
+ActivationPage,com.nbcd.Test.TCActivationPage_URLRoutingforactivationpage_NBCRESP3518,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_VerifyGuestcalenderwhentherearenoepisode_NBCRESP4107,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3796,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3542,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3536,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon_3097,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyUserFriendlyFailMessagesAuthKey_1920,No,Chrome,Chrome,63,Windows,7
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_CLIPSsectionDropdownMenuDBB3786,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_CLIPSsectionDropdownMenu_sneakpeak_NBCRESP_1436,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Mobile_verifyclipstaggedtohidesalesinclicpssection_NBCRESP_1436,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Mobile_verifyFilterisinEpisodesection_DBB_3687,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_GlobalHomepage_Mobile_VerifytheShowsinalphabeticalorder_NBCRESP271,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_GlobalHomepage_Mobile_VerifyDynamicLeadslidesanimatedcircularehaviour,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_GlobalHomepage_Tab_VerifyDynamicLeadslidesanimationNBCRESP_9,No,IPAD,TRUE,No,iPad 5th,11
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_GlobalHomepage_Tab_VerifyDynamicLeadslidesanimatedcircularehaviour,No,IPAD,TRUE,No,iPad 5th,11
+PhotosLandingPage,com.nbcd.Test.TCPhotosLandingPage_NBCRESP_3644 ,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3805,No,Chrome,Chrome,63,Windows,
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_3574,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3783,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3779,No,Chrome,Chrome,63,Windows,
+Guest calender,com.nbcd.Test.TCTSJFGuestDetailPage_Verify_Directional_Arrows_NBCRESP_4109,No,Chrome,Chrome,63,Windows,
+Guest calender,com.nbcd.Test.TCTSJFGuestDetailPage_Verify_Dynamic_Lead_slides_NBCRESP_3590,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3793,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3818,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3774,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3816,No,Chrome,Chrome,63,Windows,
+showhomepage,com.nbcd.Test.TCShowHomePage_Verify_NoShoplink_3586,No,Chrome,Chrome,63,Windows,
+showhomepage,com.nbcd.Test.TCShowHomePage_Verify_NoMarketingband_3704,No,Chrome,Chrome,63,Windows,
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_verifyisSponsorExclusiveattribute_4129,No,Chrome,Chrome,63,Windows,
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_VerifyResponsive404ErrorPage_DBB_3445,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_VerifyResponsive404ErrorPage_DBB_3445,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_VerifyCopyrightinformationforshow_DBB_3577,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_VerifyCopyrightinformationforshow_DBB_3577,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_Verifynext6clipsdisplayed_DBB_3527,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+showhomepage,com.nbcd.Test.TCShowHomePage_Verify_NBCRESP_3713,No,Chrome,Chrome,63,Windows,
+showhomepage,com.nbcd.Test.TCShowHomePage_Verify_NBCRESP_3715,No,Chrome,Chrome,63,Windows,
+showhomepage,com.nbcd.Test.TCShowHomePage_Verify_NBCRESP_3695,No,Chrome,Chrome,63,Windows,
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_3571,No,Chrome,Chrome,63,Windows,
+Scalablesales,com.nbcd.Test.TCScalablePage_AdCampaign_3648,No,Chrome,Chrome,63,Windows,
+Scalablesales,com.nbcd.Test.TCScalablePage_appendtickets_3646,No,Chrome,Chrome,63,Windows,
+Scalablesales,com.nbcd.Test.TCScalablePage_Coppacompliant_ScalableSalesPage_3588,No,Chrome,Chrome,63,Windows,
+Scalablesales,com.nbcd.Test.TCScalablePage_Coppacompliant_show_3587,No,Chrome,Chrome,63,Windows,
+Scalablesales,com.nbcd.Test.TCScalablePage_SlideOverlay_Nodata_3575,No,Chrome,Chrome,63,Windows,
+Schedule,com.nbcd.Test.TCSchedulePage_Tab_VerifyShowNameLinksinchedulePage_NBCRESP_1213,No,IPAD,TRUE,No,iPad 5th,11
+Schedule,com.nbcd.Test.TCSchedulePage_Mobile_VerifyWatchLiveShowCTA_NBCRESP_1956,Yes,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+AllShows,com.nbcd.Test.TCAllShowsPage_Mobile_classicshowsThrowback_NBCRESP_2275,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalablePage_Verify_NBCRESP_3650,No,Chrome,Chrome,63,Windows,
+Global_Showhome_Page,com.nbcd.Test.TCGlobalHomePage_Verify2VideoSection_NBCRESP_1224,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_VerifyUserFriendlyAuthzFailMessages_3785,No,Chrome,Chrome,63,Windows,7
+AllShows,com.nbcd.Test.TCAllShowsPage_Tab_classicshowsThrowback_NBCRESP_2275,No,IPAD,TRUE,No,iPad 5th,11
+ContactUs,com.nbcd.Test.TCContact_Mob_Pagelayout_1536,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ContactUs,com.nbcd.Test.TCContact_Tab_ShowTicketsflow_1547,No,IPAD,TRUE,No,iPad 5th,11
+Appspage,com.nbcd.Test.TCAppsLandingPage_Mob_Verifyupdated_1894,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Mobile_Verifynext6clipsdisplayed_NBCRESP_1344,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Tab_Verifynext6clipsdisplayed_NBCRESP_1345,No,IPAD,TRUE,No,iPad 5th,11
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Mobile_VerifyGlobalNavigation_expiredepisode,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Tab_VerifyGlobalNavigation_expiredepisode,No,IPAD,TRUE,No,iPad 5th,11
+AllVideosPage,com.nbcd.Test.TCAllVideosPage_Tab_Verifyhamburger_3409,No,IPAD,TRUE,No,iPad 5th,11
+AllVideosPage,com.nbcd.Test.TCAllVideosPage_Mob_Verify_All_Videos_Landing_Page_DBB_3798,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+AllVideosPage,com.nbcd.Test.TCAllVideosPage_Tab_Verify_All_Videos_Landing_Page_DBB_3798,No,IPAD,TRUE,No,iPad 5th,11
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Mobile_Verifyshowlevelnavigationisdisplayed,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_NBCRESP_2930,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_NBCRESP_2930,No,IPAD,TRUE,No,iPad 5th,11
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Tab_Verifyshowlevelnavigationisdisplayed,No,IPAD,TRUE,No,iPad 5th,11
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Mobile_VerifyMessagewhennoepisodes_NBCRESP_1309,Yes,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowinnerPage,com.nbcd.Test.TCShowInnerEpisode_Tab_VerifyAdShowInnerEpisodesPage_NBCRESP_1065,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_NBCRESP_3105,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_NBCRESP_3105,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_Verifynext6clipsdisplayed_DBB_3527,No,IPAD,TRUE,No,iPad 5th,11
+CreditLandingPage,com.nbcd.Test.TCCreditLandingPage_Mobile_VerifyCreditlandingpage_NBCRESP_1315,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+CreditLandingPage,com.nbcd.Test.TCCreditLandingPage_Mobile_VerifyNonTeamCreditsTVSeason_NBCRESP_1340,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ActivationPage,com.nbcd.Test.TCActivationPage_Mob_VerifyGenerallayout_3151,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ActivationPage,com.nbcd.Test.TCActivationPage_Mob_Verifyvalidinvalid_2613,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_ios_NBCRESP_2569,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_Android_NBCRESP_2569,No,MOBILE,TRUE,No,Samsung Galaxy S8,7
+ActivationPage,com.nbcd.Test.TCActivationPage_Tab_Verifyvalidinvalid_2613,No,IPAD,TRUE,No,iPad 5th,11
+CreditLandingPage,com.nbcd.Test.TCCreditLandingPage_Mobile_VerifyNonTeamCreditsTVSeason_NBCRESP_1312,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+CreditDetailsPage,com.nbcd.Test.TCCreditDetailsPage_Mobile_VerifyResponsiveNavigationBar_NBCRESP_1286,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+CreditDetailsPage,com.nbcd.Test.TCCreditDetailsPage_Mobile_VerifyRelatedClipsSection_NBCRESP_1319,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_DBB_3100,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_DBB_3100,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_DBB_3578,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_verifyFilterremovedonlySingleEpisodes_DBB_3687,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_verifyfilteravailableymorethanSingleEpisodes_DBB_3687_a,No,IPAD,TRUE,No,iPad 5th,11
+ActivationPage,com.nbcd.Test.TCActivationPage_Mob_Verifysubmission_2598,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Mob_Verify2VideoSection_NBCRESP_1224,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Schedule,com.nbcd.Test.TCSchedulePage_Mob_Verify_NBCRESP_3663,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_verifyHeadertextofFeaturessection_NBCRESP_821,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Mobile_verifShowhomepageArchivedshows_NBCRESP_1970,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_Verify_NBCRESP_1436,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_Verify_NBCRESP_2232,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_DBB_2666,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Mobile_verifyHeadertextofFeaturessection_NBCRESP_821,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowHomePage,com.nbcd.Test.TCShowHomePage2_Tab_Verify_metadata_for_Feature_NBCRESP_812,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_VerifyAppPromote_2395,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_VerifyAppPromote_2395,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mob_Verifyfirstname_2409,Yes,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_Verifyfirstname_2409,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mobile_VerifyRelatedClipsAreadisplayedinGuestDetailpage_NBCRESP2230,Yes,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_VerifyRelatedClipsAreadisplayedinGuestDetailpage_NBCRESP2231,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mobile_VerifGuestCarouselAreadisplayed_NBCRESP2230,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_Verify_NBCRESP_1436,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_GuestDetailsAreadropdownnav_2242,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mobile_VerifyDirectionalArrows_NBCRESP_4109,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_VerifyMetaDataFontColorsvideodetails_DBB_3222,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Mobile_Verify_NBCRESP_1163,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Tab_Verify_NBCRESP_1163,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_VerifyDirectionalArrows_NBCRESP_4109,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mob_GuestDetailsArea_2230,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_GuestDetailsArea_2230,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mob_GuestDetailsAreadropdownnav_2242,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Identity,com.nbcd.Test.TCIdentity_Mobile_Signup_withoutmail,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Identity,com.nbcd.Test.TCIdentity_Tab_Signup_withoutmail,No,IPAD,TRUE,No,iPad 5th,11
+showhomepage,com.nbcd.Test.TCShowHomePage_Mobile_Verify_NBCRESP_2242,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_Verify_NBCRESP_1436,No,MOBILE,TRUE,No,Samsung Galaxy S8,7
+Identity,com.nbcd.Test.TCIdentity_Mobile_favorites_functionality,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Search,com.nbcd.Test.TCSeachPage_Mob_Verify_searchAbilities_2866,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mobile_VerifyGuestcarousescrolling_NBCRESP_2242,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Schedule,com.nbcd.Test.TCSchedulePage_Tab_Verify_NBCRESP_3663,No,IPAD,TRUE,No,iPad 5th,11
+Identity,com.nbcd.Test.TCIdentity_Tab_Reset_3035,No,IPAD,TRUE,No,iPad 5th,11
+identity,com.nbcd.Test.TCIdentity_Mob_Reset_3035,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Search,com.nbcd.Test.TCSeachPage_Tab_Verify_searchAbilities_2866,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mobile_NBCRESP_2233,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_click_Clear_Mobile_NBCRESP_3185,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+SearchAllPages,com.nbcd.Test.TCSearchAppsPageReusableVerify_click_Clear_Tab_NBCRESP_3185,No,IPAD,TRUE,No,iPad 5th,11
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Mobile_Verify_Archivedshow_3728,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowHomePage,com.nbcd.Test.TCShowHomePage_Tab_verifyClipsdurationneverdisplay0min_NBCRESP_1016,No,IPAD,TRUE,No,iPad 5th,11
+Search,com.nbcd.Test.TCSeachPage_Mob_Verify_searchresultbehaviour_5630,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Search,com.nbcd.Test.TCSeachPage_Tab_Verify_searchresultbehaviour_5630,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Tab_Chrono_NBCRESP_3105,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Tab_Verify2VideoSection_NBCRESP_1224,No,IPAD,TRUE,No,iPad 5th,11
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Mob_Chrono_NBCRESP_3105,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+showhomepage,com.nbcd.Test.TCShowHomePage_Mob_Verify_NBCRESP_1436,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mob_HeaderNav_3212,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Tab_HeaderNav_3212,No,IPAD,TRUE,No,iPad 5th,11
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Tab_Branding_withLink3213,No,IPAD,TRUE,No,iPad 5th,11
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mob_Branding_withoutLink3201,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mob_Branding_withLink3200,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Tab_FrontEnd_Videocollection3218,No,IPAD,TRUE,No,iPad 5th,11
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mob_FrontEnd_Videocollection3206,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mobile_NBCRESP_3205,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mobile_IframeContentboxexternalNotchecked_NBCRESP_3203,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_NBCRESP_3204,No,MOBILE,TRUE,No,Samsung Galaxy S8,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3231,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3232,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_FrontEnd_Ads_3220,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mob_FrontEnd_Ads_3208,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_FrontEnd_Ads_3236,No,Chrome,Chrome,63,Windows,7
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mobile_Featurecollection_3207,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Tab_Featurecollection_3219,No,IPAD,TRUE,No,iPad 5th,11
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Tab_IframeContentboxexternalNotchecked_NBCRESP_3215,No,IPAD,TRUE,No,iPad 5th,11
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Mobile_IframeContentboxexternalchecked_NBCRESP_3202,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Tab_IframeContentboxexternalchecked_NBCRESP_3214,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Confirmationmessage_sweeps3262,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Confirmationmessage_sweepsSocial_3261,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Confirmationmessage_sweepsSocialFB_3263,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Confirmationmessage_sweepsSocialtweet_3264,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3268,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_Confirmationmessage_sweeps3275,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_Confirmationmessage_sweepsSocial_3274,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mob_Confirmationmessage_sweeps3281,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mob_Confirmationmessage_sweepsSocial_3280,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Submitform3259,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mob_Submitform3279,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_Submitform3273,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Agegate3260,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Uniqueid3258,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Closedimage3266,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Closedmessage3266,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_Closedimage3257,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_Closedmessage3256,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3269,No,Chrome,Chrome,63,Windows,7
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Desktop_Featurecollection_3234,No,Chrome,Chrome,63,Windows,7
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Desktop_IframeContentboxexternalNotchecked_NBCRESP_3230,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3249,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3248,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_NBCRESP_3277,No,MOBILE,TRUE,No,Samsung Galaxy Tab 4,4.4
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_IframeContentboxexternalchecked_NBCRESP_3229,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_SubnavHighlight3247,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3238,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_iframeboxsweeps_3239,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Imagemaps_Mob_3226,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Imagemaps_3270,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_Imagemaps3278,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_NBCRESP_3225,No,MOBILE,TRUE,No,Samsung Galaxy S8,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_NBCRESP_3224,No,MOBILE,TRUE,No,Samsung Galaxy S8,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_NBCRESP_3276,No,MOBILE,TRUE,No,Samsung Galaxy Tab 4,4.4
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_Sponsoredsweepstakefrontendimages_NBCRESP_3223,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Sponsoredsweepstakefrontendimages_NBCRESP_3267,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_Sponsoredsweepstakefrontendimages_NBCRESP_3272,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Branding_withLink3228,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_FrontEnd_Videocollection3233,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_ScalablesalesImagemaps3240,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_ScalablesalesImagemaps3222,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mob_ScalablesalesImagemaps3210,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_NBCRESP_3237,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_NBCRESP_3209,No,MOBILE,TRUE,No,Samsung Galaxy S8,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Tab_NBCRESP_3221,No,MOBILE,TRUE,No,Samsung Galaxy Tab 4,4.4
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_FrontendBackgroundimagecolor_NBCRESP_3211,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_FrontendBackgroundimagecolor_NBCRESP_3267,No,Chrome,Chrome,63,Windows,7
+ContactUs,com.nbcd.Test.TCContact_Desktop_MistypeurlcontactusredirectsContactUs_NBCRESP_6030,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Mobile_ordering_favorites_functionality_NBCRESP_6424,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Existinuserredirect5943,No,Chrome,Chrome,63,Windows,7
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Desktop_Copychangesigninsweeps6034,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_Signincopychanges6032,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_Signincopychanges_tab6035,No,IPAD,TRUE,No,iPad 5th,11
+Identity,com.nbcd.Test.TCIdentity_Verify_Signincopychanges_mob6033,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_Desktop_NBCRESP_6531,No,Chrome,Chrome,63,Windows,7
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_6507,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_5942,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Tab_ordering_favorites_functionality_NBCRESP_6425,No,IPAD,TRUE,No,iPad 5th,11
+ContactUs,com.nbcd.Test.TCContact_Mobile_MistypeurlcontactusredirectsContactUs_NBCRESP_6030,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Identity,com.nbcd.Test.TCIdentity_Desktop_ordering_favorites_functionality_NBCRESP_6423,No,Chrome,Chrome,63,Windows,7
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Desktop_Verify_ZendesktokenblacklistedNBCRESP_2358,No,Chrome,Chrome,63,Windows,7
+GlobalHome Page,com.nbcd.Test.TCAppsLandingPage_VerifyAppstorenav6544,No,Chrome,Chrome,63,Windows,7
+GlobalHome Page,com.nbcd.Test.TCAppsLandingPage_Mob_VerifyAppstorenav6545,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHome Page,com.nbcd.Test.TCAppsLandingPage_Tab_VerifyAppstorenav6546,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_6584,No,Chrome,Chrome,63,Windows,7
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_6583,No,Chrome,Chrome,63,Windows,7
+ShowvideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_2930,No,Chrome,Chrome,63,Windows,7
+Showinner,com.nbcd.Test.TCShowInnerEpisode_BodyAd_3744,No,Chrome,Chrome,63,Windows,7
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_3839,No,Chrome,Chrome,63,Windows,7
+Guest calender,com.nbcd.Test.TCTSJFGuestDetailPage_Verify_NBCRESP_4108_Mobile,Yes,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_GuestDetailsArea_2215,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Tab_GuestDetailsArea_2220,No,IPAD,TRUE,No,iPad 5th,11
+TSJF,com.nbcd.Test.TCTSJFGuestDetailPage_Mobile_VerifyGuestcarousescrolling_NBCRESP_4106,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ShowVideoDetailPage,com.nbcd.Test.TCShowVideoDetailPage_NBCRESP_1654,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Guest calender,com.nbcd.Test.TCTSJFGuestDetailPage_Verify_NBCRESP_2230,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Search,com.nbcd.Test.TCSeachPage_Tab_NBCRESP_3185,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_6766,No,Chrome,Chrome,63,Windows,7
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_Mobile_6769,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_Tab_6772,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Global_Toppicks_Desktop,No,Chrome,Chrome,63,Windows,7
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Global_Toppicks_DesktopValidation,No,Chrome,Chrome,63,Windows,7
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_Mobile_6767,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_Tab_6770,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_6762,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCTSJFGuestDetailPage_Verify_NBCRESP_4113,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifyShowNameTuneinAlertvalues_NBCRESP_3699,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub7_pub7Newoptions5944,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCAllShowsPage_ClipsHidesalesFunctionality_NBCRESP_3782,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifySHOWSDropdrowncontainslistofshows_NBCRESP_3773_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifySHOWSDropdrowncontainslistofshows_NBCRESP_3773,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifyCollectionshelvesonthefrontendappear_NBCRESP_3591_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifyCollectionshelvesonthefrontendappear_NBCRESP_3591,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifyCollectionshelvesonthefrontendappear_NBCRESP_3718_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_VerifyCollectionshelvesonthefrontendappear_NBCRESP_3718,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_Verify_NBCRESP_3651,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_Verify_NBCRESP_3650,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_Verify_NBCRESP_3722_Desktop,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsBar_Verify_NBCRESP_3722_Mobile,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Pub7,com.nbcd.Test.TCBreakingNewsBar_Verify_NBCRESP_3735_Tab,No,IPAD,TRUE,No,iPad 5th,11
+identity,com.nbcd.Test.TCIdentity_Verify_SimpleSignin,No,Chrome,Chrome,63,Windows,7
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_6765,No,Chrome,Chrome,63,Windows,7
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_Tab_6771,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHomePage,com.nbcd.Test.TCGlobalHomePage_Verify_NBCRESP_Mobile_6768,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_6322_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_6322,No,Chrome,Chrome,63,Windows,7
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Global_Toppicks_TabValidation.java,No,IPAD,TRUE,No,iPad 5th,11
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Global_Toppicks_MobileValidation,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Global_Toppicks_Mob,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+GlobalHome Page,com.nbcd.Test.TCGlobalHomePage_Global_Toppicks_Tab,No,IPAD,TRUE,No,iPad 5th,11
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_6655,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+ScalableSweeps,com.nbcd.Test.TCScalableSweeps_Mobile_6656,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_6316_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_6316,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsPub7_6319,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCBreakingNewsPub7_6319Verification,No,Chrome,Chrome,63,Windows,7
+Identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_Tab_6927,No,IPAD,TRUE,No,iPad 5th,11
+identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_Mobile_6926,No,MOBILE,TRUE,No,iPhone 7 Plus,10.3
+identity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_Desktop_6925,No,Chrome,Chrome,63,Windows,7
+Scalablesales,com.nbcd.Test.TCScalableSweeps_Desktop_verify_6884,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_6324_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_6324,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6830,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6828,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6826,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6824,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_3453_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_3453,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6822,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6820,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6818,No,Chrome,Chrome,63,Windows,7
+Networkidentity,com.nbcd.Test.TCIdentity_Verify_NBCRESP_6816,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_3452_PreReq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub701_Verify_NBCRESP_3452,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub7_Verify_8738,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub7_Verify_Marketingband6321_prereq,No,Chrome,Chrome,63,Windows,7
+Pub7,com.nbcd.Test.TCPub7_Verify_Marketingband6321_Validation,No,Chrome,Chrome,63,Windows,7

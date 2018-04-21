@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Parallel]" parallel="classes">
+  <parameter name="environment" value="chrome"/>
+  <test name="Chrome(failed)" parallel="classes">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="osversion" value="7"/>
+    <parameter name="version" value="58.0"/>
+    <classes>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyAllShowPageFunctionality"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality -->
+      <class name="com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD">
+        <methods>
+          <include name="VerifyExternalPageAuthFlowMVPD"/>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_LoadMore">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="LoadMore"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_LoadMore -->
+      <class name="com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyScrollSizeForVODPage"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage -->
+      <class name="com.nbcd.Test.TCSearchPageAbilities">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyGeneralAbilities"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSearchPageAbilities -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifyMetadataENoEpisodeClip"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="Global_Footerlinks_Nav"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav -->
+      <class name="com.nbcd.Test.TCActivationPage_VerifySucessPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifySucessPage"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCActivationPage_VerifySucessPage -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="Seasonimagemeta"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta -->
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifyAuthSuccessMsgMVPDNBCRESP_1754"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754 -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_seo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="seo"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_seo -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifySeasonsSortingforClassicVideos"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos -->
+      <class name="com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyAppsLandingPage"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage -->
+      <class name="com.nbcd.Test.TCBreakingNewsBar">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="BreakingNewsbar"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCBreakingNewsBar -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate">
+        <methods>
+          <include name="VerifyEarliestairdatetolatestairdate"/>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_BodyAd">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="Global_BodyAd"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_BodyAd -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail">
+        <methods>
+          <include name="VerifyOGTagForURLVideoDetail"/>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="LoadButtonNextSixVideos"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_OgTweet">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="OgTweet"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_OgTweet -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyMVPDLogo"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifySNLEpisode"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_titledescan">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="titledescan"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_titledescan -->
+      <class name="com.nbcd.Test.TCSearch_VerifyGeneralBehaviour">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyGeneralBehaviour"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSearch_VerifyGeneralBehaviour -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_applinks">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="applinks"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_applinks -->
+      <class name="com.nbcd.Test.TCTVE_Livepagetve">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="Livepagetve"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCTVE_Livepagetve -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_schemaorgs">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="schemaorg"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_schemaorgs -->
+      <class name="com.nbcd.Test.TCTVE_AuthVod">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="Authvod"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCTVE_AuthVod -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_sorryvideo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="sorryvideo"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_sorryvideo -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_RespNavBar">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="RespNavBar"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_RespNavBar -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyDisplayofShowsinAlphabeticalOrder"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder -->
+      <class name="com.nbcd.Test.TCSearch_VerifySearchResults">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifySearchResults"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSearch_VerifySearchResults -->
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="MenuDetails"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_availablenav">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="availablenav"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_availablenav -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_titledescan">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="titledescan"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_titledescan -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_eptitledescan">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="eptitledescan"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_eptitledescan -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyVideoDetailPageOpened"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_BodyAd">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="BodyAd"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_BodyAd -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyMetaDataCopyrightInfoDisplay"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay -->
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyLiveStreamGeneralLayOut"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyMetatagsmartlink"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink -->
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifyAuthIFrameLayOutDirectTV"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_ehsf">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="ehsf"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_ehsf -->
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Filter">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="VerifyFilter"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_Verify_Filter -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_urlredirect">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="urlredirect"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_urlredirect -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyAuthKeyIcon"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyAppearingSectionVideo"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo -->
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="TCSchedulePage_Verify_Schedule_WhatsOnPage"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page -->
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyAllShowPageThrowback"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test name="Firefox(failed)" parallel="classes">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="osversion" value="7"/>
+    <parameter name="version" value="57.0"/>
+    <classes>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyAllShowPageFunctionality"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_LoadMore">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="LoadMore"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_LoadMore -->
+      <class name="com.nbcd.Test.TCSearchPageAbilities">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyGeneralAbilities"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSearchPageAbilities -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifyMetadataENoEpisodeClip"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="Global_Footerlinks_Nav"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav -->
+      <class name="com.nbcd.Test.TCActivationPage_VerifySucessPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifySucessPage"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCActivationPage_VerifySucessPage -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="Seasonimagemeta"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta -->
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifyAuthSuccessMsgMVPDNBCRESP_1754"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754 -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_seo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="seo"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_seo -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifySeasonsSortingforClassicVideos"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos -->
+      <class name="com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyAppsLandingPage"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage -->
+      <class name="com.nbcd.Test.TCBreakingNewsBar">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="BreakingNewsbar"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCBreakingNewsBar -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_BannerAd">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="Global_BannerAd"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_BannerAd -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate">
+        <methods>
+          <include name="VerifyEarliestairdatetolatestairdate"/>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_BodyAd">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="Global_BodyAd"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_BodyAd -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail">
+        <methods>
+          <include name="VerifyOGTagForURLVideoDetail"/>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="LoadButtonNextSixVideos"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_OgTweet">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="OgTweet"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_OgTweet -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyMVPDLogo"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifySNLEpisode"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_titledescan">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="titledescan"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_titledescan -->
+      <class name="com.nbcd.Test.TCSearch_VerifyGeneralBehaviour">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyGeneralBehaviour"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSearch_VerifyGeneralBehaviour -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_applinks">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="applinks"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_applinks -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting">
+        <methods>
+          <include name="VerifyVideosSeasonlistSorting"/>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting -->
+      <class name="com.nbcd.Test.TCTVE_Livepagetve">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="Livepagetve"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCTVE_Livepagetve -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_schemaorgs">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="schemaorg"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_schemaorgs -->
+      <class name="com.nbcd.Test.TCTVE_AuthVod">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="Authvod"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCTVE_AuthVod -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_sorryvideo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="sorryvideo"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_sorryvideo -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_RespNavBar">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="RespNavBar"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_RespNavBar -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyDisplayofShowsinAlphabeticalOrder"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder -->
+      <class name="com.nbcd.Test.TCSearch_VerifySearchResults">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifySearchResults"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSearch_VerifySearchResults -->
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="MenuDetails"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_availablenav">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="availablenav"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_availablenav -->
+      <class name="com.nbcd.Test.TCGlobalHomePage_titledescan">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="titledescan"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCGlobalHomePage_titledescan -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_eptitledescan">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="eptitledescan"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_eptitledescan -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyVideoDetailPageOpened"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_BodyAd">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="BodyAd"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_BodyAd -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyMetaDataCopyrightInfoDisplay"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay -->
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyLiveStreamGeneralLayOut"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyMetatagsmartlink"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink -->
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="VerifyAuthIFrameLayOutDirectTV"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_ehsf">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="ehsf"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_ehsf -->
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Filter">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="VerifyFilter"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_Verify_Filter -->
+      <class name="com.nbcd.Test.TCShowInnerEpisode_urlredirect">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="urlredirect"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_urlredirect -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyAuthKeyIcon"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon -->
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="VerifyAppearingSectionVideo"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo -->
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="TCSchedulePage_Verify_Schedule_WhatsOnPage"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page -->
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyAllShowPageThrowback"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Parallel] -->

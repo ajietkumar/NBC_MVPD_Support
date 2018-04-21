@@ -1,0 +1,2285 @@
+<html>
+<head>
+<title>TestNG:  Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>56/48/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 03 10:15:02 PST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1736 seconds (1736653 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nbcd.Test.TCTVE_AuthVod.Authvod()'><b>Authvod</b><br>Test class: com.nbcd.Test.TCTVE_AuthVod</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;https://www.nbc.com/this-is-us&quot;. Current url: &quot;https://www.nbc.com/law-and-order-true-crime-menendez&quot; (tried for 60 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: a9b66226e2d1180a558a81cc4060f4e6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.nbcd.Pages.PGTVE.Authvod(PGTVE.java:64)
+	at com.nbcd.Test.TCTVE_AuthVod.Authvod(TCTVE_AuthVod.java:17)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace778734042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace778734042'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;https://www.nbc.com/this-is-us&quot;. Current url: &quot;https://www.nbc.com/law-and-order-true-crime-menendez&quot; (tried for 60 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: a9b66226e2d1180a558a81cc4060f4e6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.nbcd.Pages.PGTVE.Authvod(PGTVE.java:64)
+	at com.nbcd.Test.TCTVE_AuthVod.Authvod(TCTVE_AuthVod.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>74</td>
+<td>com.nbcd.Test.TCTVE_AuthVod@19bb07ed</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_BodyAd.BodyAd()'><b>BodyAd</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_BodyAd</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.BodyAd(PGShowInnerEpisodes.java:58)
+	at com.nbcd.Test.TCShowInnerEpisode_BodyAd.BodyAd(TCShowInnerEpisode_BodyAd.java:20)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1453767677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1453767677'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.BodyAd(PGShowInnerEpisodes.java:58)
+	at com.nbcd.Test.TCShowInnerEpisode_BodyAd.BodyAd(TCShowInnerEpisode_BodyAd.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_BodyAd@63021689</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCBreakingNewsBar.BreakingNewsbar()'><b>BreakingNewsbar</b><br>Test class: com.nbcd.Test.TCBreakingNewsBar</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.breaking-news__inner a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: c97bb7e2d94cafbb9169272a78729d0e
+*** Element info: {Using=css selector, value=div.breaking-news__inner a}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.nbcd.GenericLib.Utilities.returnElement(Utilities.java:32)
+	at com.nbcd.Pages.PGBreakingNewsBar.BreakingNewsbar(PGBreakingNewsBar.java:58)
+	at com.nbcd.Test.TCBreakingNewsBar.BreakingNewsbar(TCBreakingNewsBar.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1813453441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1813453441'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.breaking-news__inner a&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: c97bb7e2d94cafbb9169272a78729d0e
+*** Element info: {Using=css selector, value=div.breaking-news__inner a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.nbcd.GenericLib.Utilities.returnElement(Utilities.java:32)
+	at com.nbcd.Pages.PGBreakingNewsBar.BreakingNewsbar(PGBreakingNewsBar.java:58)
+	at com.nbcd.Test.TCBreakingNewsBar.BreakingNewsbar(TCBreakingNewsBar.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>14</td>
+<td>com.nbcd.Test.TCBreakingNewsBar@67a20f67</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCGlobalHomePage_BodyAd.Global_BodyAd()'><b>Global_BodyAd</b><br>Test class: com.nbcd.Test.TCGlobalHomePage_BodyAd</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 350ad789e73d146ebb2ff4b781945150
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at com.nbcd.Pages.PGGlobalHomePage.Global_BodyAd(PGGlobalHomePage.java:70)
+	at com.nbcd.Test.TCGlobalHomePage_BodyAd.Global_BodyAd(TCGlobalHomePage_BodyAd.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace712472146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace712472146'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 350ad789e73d146ebb2ff4b781945150
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at com.nbcd.Pages.PGGlobalHomePage.Global_BodyAd(PGGlobalHomePage.java:70)
+	at com.nbcd.Test.TCGlobalHomePage_BodyAd.Global_BodyAd(TCGlobalHomePage_BodyAd.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>41</td>
+<td>com.nbcd.Test.TCGlobalHomePage_BodyAd@10e41621</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav.Global_Footerlinks_Nav()'><b>Global_Footerlinks_Nav</b><br>Test class: com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 350ad789e73d146ebb2ff4b781945150
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:517)
+	at com.nbcd.Pages.PGGlobalHomePage.Global_Footerlinks_Nav(PGGlobalHomePage.java:146)
+	at com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav.Global_Footerlinks_Nav(TCGlobalHomePage_Global_Footerlinks_Nav.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096062416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096062416'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 350ad789e73d146ebb2ff4b781945150
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:517)
+	at com.nbcd.Pages.PGGlobalHomePage.Global_Footerlinks_Nav(PGGlobalHomePage.java:146)
+	at com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav.Global_Footerlinks_Nav(TCGlobalHomePage_Global_Footerlinks_Nav.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>35</td>
+<td>com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav@2667f029</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCTVE_Livepagetve.Livepagetve()'><b>Livepagetve</b><br>Test class: com.nbcd.Test.TCTVE_Livepagetve</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#rememberCheckboxId&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: dd617a002d619e4967522b41f9a9fae4
+*** Element info: {Using=css selector, value=input#rememberCheckboxId}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.nbcd.GenericLib.Utilities.returnElement(Utilities.java:32)
+	at com.nbcd.Pages.PGTVE.Livepagetve(PGTVE.java:604)
+	at com.nbcd.Test.TCTVE_Livepagetve.Livepagetve(TCTVE_Livepagetve.java:18)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace83510292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace83510292'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#rememberCheckboxId&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: dd617a002d619e4967522b41f9a9fae4
+*** Element info: {Using=css selector, value=input#rememberCheckboxId}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:464)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at com.nbcd.GenericLib.Utilities.returnElement(Utilities.java:32)
+	at com.nbcd.Pages.PGTVE.Livepagetve(PGTVE.java:604)
+	at com.nbcd.Test.TCTVE_Livepagetve.Livepagetve(TCTVE_Livepagetve.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>15</td>
+<td>com.nbcd.Test.TCTVE_Livepagetve@4b0b0854</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos.LoadButtonNextSixVideos()'><b>LoadButtonNextSixVideos</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.LoadButtonNextSixVideos(PGShowVideoDetailPage.java:654)
+	at com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos.LoadButtonNextSixVideos(TCShowVideoDetailPage_LoadButtonNextSixVideos.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace870088957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace870088957'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.LoadButtonNextSixVideos(PGShowVideoDetailPage.java:654)
+	at com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos.LoadButtonNextSixVideos(TCShowVideoDetailPage_LoadButtonNextSixVideos.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos@3d680b5a</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_LoadMore.LoadMore()'><b>LoadMore</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_LoadMore</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.LoadMore(PGShowInnerEpisodes.java:297)
+	at com.nbcd.Test.TCShowInnerEpisode_LoadMore.LoadMore(TCShowInnerEpisode_LoadMore.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1163555412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1163555412'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.LoadMore(PGShowInnerEpisodes.java:297)
+	at com.nbcd.Test.TCShowInnerEpisode_LoadMore.LoadMore(TCShowInnerEpisode_LoadMore.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_LoadMore@1622f1b</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion.MenuDetails()'><b>MenuDetails</b><br>Test class: com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGLivePage.VerifyLivestreampageSupportedregion(PGLivePage.java:73)
+	at com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion.MenuDetails(TCPGLivePage_VerifyLivestreampageSupportedregion.java:24)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace416364155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416364155'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGLivePage.VerifyLivestreampageSupportedregion(PGLivePage.java:73)
+	at com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion.MenuDetails(TCPGLivePage_VerifyLivestreampageSupportedregion.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion@6ef888f6</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_OgTweet.OgTweet()'><b>OgTweet</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_OgTweet</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.OgTweet(PGShowInnerEpisodes.java:345)
+	at com.nbcd.Test.TCShowInnerEpisode_OgTweet.OgTweet(TCShowInnerEpisode_OgTweet.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace589038533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace589038533'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.OgTweet(PGShowInnerEpisodes.java:345)
+	at com.nbcd.Test.TCShowInnerEpisode_OgTweet.OgTweet(TCShowInnerEpisode_OgTweet.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_OgTweet@72a7c7e0</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_RespNavBar.RespNavBar()'><b>RespNavBar</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_RespNavBar</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.RespNavBar(PGShowInnerEpisodes.java:101)
+	at com.nbcd.Test.TCShowInnerEpisode_RespNavBar.RespNavBar(TCShowInnerEpisode_RespNavBar.java:17)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2050114781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050114781'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.RespNavBar(PGShowInnerEpisodes.java:101)
+	at com.nbcd.Test.TCShowInnerEpisode_RespNavBar.RespNavBar(TCShowInnerEpisode_RespNavBar.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_RespNavBar@703580bf</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta.Seasonimagemeta()'><b>Seasonimagemeta</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.Seasonimagemeta(PGShowInnerEpisodes.java:148)
+	at com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta.Seasonimagemeta(TCShowInnerEpisode_Seasonimagemeta.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace627488149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace627488149'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.Seasonimagemeta(PGShowInnerEpisodes.java:148)
+	at com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta.Seasonimagemeta(TCShowInnerEpisode_Seasonimagemeta.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta@3e92efc3</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page.TCSchedulePage_Verify_Schedule_WhatsOnPage()'><b>TCSchedulePage_Verify_Schedule_WhatsOnPage</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 8a7bd3b1f8f8a78d5113e390fcffc0a5
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGSchedulePage.Verify_Schedule_Page_Whats_On_Header(PGSchedulePage.java:1137)
+	at com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page.TCSchedulePage_Verify_Schedule_WhatsOnPage(TCSchedulePage_Verify_Schedule_Whats_On_Page.java:13)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1876241974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1876241974'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 8a7bd3b1f8f8a78d5113e390fcffc0a5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGSchedulePage.Verify_Schedule_Page_Whats_On_Header(PGSchedulePage.java:1137)
+	at com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page.TCSchedulePage_Verify_Schedule_WhatsOnPage(TCSchedulePage_Verify_Schedule_Whats_On_Page.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>48</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page@65466a6a</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality.VerifyAllShowPageFunctionality()'><b>VerifyAllShowPageFunctionality</b><br>Test class: com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGAllShowsPage.VerifyAllShowPageFunctionality(PGAllShowsPage.java:59)
+	at com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality.VerifyAllShowPageFunctionality(TCPGAllShowsPage_VerifyAllShowPageFunctionality.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace537622280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace537622280'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGAllShowsPage.VerifyAllShowPageFunctionality(PGAllShowsPage.java:59)
+	at com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality.VerifyAllShowPageFunctionality(TCPGAllShowsPage_VerifyAllShowPageFunctionality.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality@5be6e01c</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback.VerifyAllShowPageThrowback()'><b>VerifyAllShowPageThrowback</b><br>Test class: com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGAllShowsPage.VerifyAllShowPageThrowback(PGAllShowsPage.java:302)
+	at com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback.VerifyAllShowPageThrowback(TCPGAllShowsPage_VerifyAllShowPageThrowback.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace121301766", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace121301766'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGAllShowsPage.VerifyAllShowPageThrowback(PGAllShowsPage.java:302)
+	at com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback.VerifyAllShowPageThrowback(TCPGAllShowsPage_VerifyAllShowPageThrowback.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback@1c93084c</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo.VerifyAppearingSectionVideo()'><b>VerifyAppearingSectionVideo</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyAppearingSectionVideo(PGShowVideoDetailPage.java:902)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo.VerifyAppearingSectionVideo(TCShowVideoDetailPage_VerifyAppearingSectionVideo.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace63462021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace63462021'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyAppearingSectionVideo(PGShowVideoDetailPage.java:902)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo.VerifyAppearingSectionVideo(TCShowVideoDetailPage_VerifyAppearingSectionVideo.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo@4a22f9e2</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage.VerifyAppsLandingPage()'><b>VerifyAppsLandingPage</b><br>Test class: com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: e8559f0f1c0087ee7b7a570b903f059a
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGAppsLandingPage.VerifyAppsLandingPage(PGAppsLandingPage.java:352)
+	at com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage.VerifyAppsLandingPage(TCAppsLandingPage_VerifyAppsLandingPage.java:25)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace746786156", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace746786156'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: e8559f0f1c0087ee7b7a570b903f059a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGAppsLandingPage.VerifyAppsLandingPage(PGAppsLandingPage.java:352)
+	at com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage.VerifyAppsLandingPage(TCAppsLandingPage_VerifyAppsLandingPage.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>47</td>
+<td>com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage@7880cdf3</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV.VerifyAuthIFrameLayOutDirectTV()'><b>VerifyAuthIFrameLayOutDirectTV</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 6a40378f6a5dfae5f087a93c2db0edd9
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyAuthIFrameLayOutDirectTV(PGLivePage.java:1792)
+	at com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV.VerifyAuthIFrameLayOutDirectTV(TCLivePage_VerifyAuthIFrameLayOutDirectTV.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2041756832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2041756832'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 6a40378f6a5dfae5f087a93c2db0edd9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyAuthIFrameLayOutDirectTV(PGLivePage.java:1792)
+	at com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV.VerifyAuthIFrameLayOutDirectTV(TCLivePage_VerifyAuthIFrameLayOutDirectTV.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>43</td>
+<td>com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV@1d119efb</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon.VerifyAuthKeyIcon()'><b>VerifyAuthKeyIcon</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyAuthKeyIcon(PGShowVideoDetailPage.java:1522)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon.VerifyAuthKeyIcon(TCShowVideoDetailPage_VerifyAuthKeyIcon.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1361421437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1361421437'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyAuthKeyIcon(PGShowVideoDetailPage.java:1522)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon.VerifyAuthKeyIcon(TCShowVideoDetailPage_VerifyAuthKeyIcon.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon@cd3fee8</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754.VerifyAuthSuccessMsgMVPDNBCRESP_1754()'><b>VerifyAuthSuccessMsgMVPDNBCRESP_1754</b><br>Test class: com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGLivePage.VerifyAuthSuccessMsgMVPDNBCRESP_1754(PGLivePage.java:151)
+	at com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754.VerifyAuthSuccessMsgMVPDNBCRESP_1754(TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2105687798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2105687798'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGLivePage.VerifyAuthSuccessMsgMVPDNBCRESP_1754(PGLivePage.java:151)
+	at com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754.VerifyAuthSuccessMsgMVPDNBCRESP_1754(TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754@10e92f8f</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder.VerifyDisplayofShowsinAlphabeticalOrder()'><b>VerifyDisplayofShowsinAlphabeticalOrder</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyDisplayofShowsinAlphabeticalOrder(PGShowVideoDetailPage.java:1380)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder.VerifyDisplayofShowsinAlphabeticalOrder(TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1875055334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1875055334'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyDisplayofShowsinAlphabeticalOrder(PGShowVideoDetailPage.java:1380)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder.VerifyDisplayofShowsinAlphabeticalOrder(TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder@3c130745</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate.VerifyEarliestairdatetolatestairdate()'><b>VerifyEarliestairdatetolatestairdate</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyEarliestairdatetolatestairdate(PGShowVideoDetailPage.java:364)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate.VerifyEarliestairdatetolatestairdate(TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace101573266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace101573266'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyEarliestairdatetolatestairdate(PGShowVideoDetailPage.java:364)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate.VerifyEarliestairdatetolatestairdate(TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate@48e4374</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD.VerifyExternalPageAuthFlowMVPD()'><b>VerifyExternalPageAuthFlowMVPD</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: e9d7d8bbcb1b2a3b6f7faef6d015c268
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyExternalPageAuthFlowMVPD(PGLivePage.java:1167)
+	at com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD.VerifyExternalPageAuthFlowMVPD(TCLivePage_VerifyExternalPageAuthFlowMVPD.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace51320266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace51320266'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: e9d7d8bbcb1b2a3b6f7faef6d015c268
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyExternalPageAuthFlowMVPD(PGLivePage.java:1167)
+	at com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD.VerifyExternalPageAuthFlowMVPD(TCLivePage_VerifyExternalPageAuthFlowMVPD.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>80</td>
+<td>com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD@bef2d72</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Filter.VerifyFilter()'><b>VerifyFilter</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Filter</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowHomePage_VerifyFilter.VerifyFilter(PGShowHomePage_VerifyFilter.java:59)
+	at com.nbcd.Test.TCShowHomePage_Verify_Filter.VerifyFilter(TCShowHomePage_Verify_Filter.java:13)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1116403270", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1116403270'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowHomePage_VerifyFilter.VerifyFilter(PGShowHomePage_VerifyFilter.java:59)
+	at com.nbcd.Test.TCShowHomePage_Verify_Filter.VerifyFilter(TCShowHomePage_Verify_Filter.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>30</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Filter@49c386c8</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSearchPageAbilities.VerifyGeneralAbilities()'><b>VerifyGeneralAbilities</b><br>Test class: com.nbcd.Test.TCSearchPageAbilities</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGSearch.VerifyGeneralAbilities(PGSearch.java:164)
+	at com.nbcd.Test.TCSearchPageAbilities.VerifyGeneralAbilities(TCSearchPageAbilities.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2097821802", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2097821802'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGSearch.VerifyGeneralAbilities(PGSearch.java:164)
+	at com.nbcd.Test.TCSearchPageAbilities.VerifyGeneralAbilities(TCSearchPageAbilities.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCSearchPageAbilities@1b1473ab</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSearch_VerifyGeneralBehaviour.VerifyGeneralBehaviour()'><b>VerifyGeneralBehaviour</b><br>Test class: com.nbcd.Test.TCSearch_VerifyGeneralBehaviour</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGSearch.VerifyGeneralBehaviour(PGSearch.java:65)
+	at com.nbcd.Test.TCSearch_VerifyGeneralBehaviour.VerifyGeneralBehaviour(TCSearch_VerifyGeneralBehaviour.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2138646251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2138646251'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGSearch.VerifyGeneralBehaviour(PGSearch.java:65)
+	at com.nbcd.Test.TCSearch_VerifyGeneralBehaviour.VerifyGeneralBehaviour(TCSearch_VerifyGeneralBehaviour.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCSearch_VerifyGeneralBehaviour@3aefe5e5</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut.VerifyLiveStreamGeneralLayOut()'><b>VerifyLiveStreamGeneralLayOut</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: c67aac83f45f3b94b637027c8b14c668
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyLiveStreamGeneralLayOut(PGLivePage.java:1623)
+	at com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut.VerifyLiveStreamGeneralLayOut(TCLivePage_VerifyLiveStreamGeneralLayOut.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1672040881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1672040881'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: c67aac83f45f3b94b637027c8b14c668
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyLiveStreamGeneralLayOut(PGLivePage.java:1623)
+	at com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut.VerifyLiveStreamGeneralLayOut(TCLivePage_VerifyLiveStreamGeneralLayOut.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>150</td>
+<td>com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut@6fe7aac8</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo.VerifyMVPDLogo()'><b>VerifyMVPDLogo</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 5d768940ce0300952c92dcdbe44b072f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMVPDLogo(PGShowVideoDetailPage.java:643)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo.VerifyMVPDLogo(TCShowVideoDetailPage_VerifyMVPDLogo.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace632415003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace632415003'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 5d768940ce0300952c92dcdbe44b072f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMVPDLogo(PGShowVideoDetailPage.java:643)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo.VerifyMVPDLogo(TCShowVideoDetailPage_VerifyMVPDLogo.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>208</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo@470f1802</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay.VerifyMetaDataCopyrightInfoDisplay()'><b>VerifyMetaDataCopyrightInfoDisplay</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMetaDataCopyrightInfoDisplay(PGShowVideoDetailPage.java:1145)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay.VerifyMetaDataCopyrightInfoDisplay(TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace547044814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace547044814'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMetaDataCopyrightInfoDisplay(PGShowVideoDetailPage.java:1145)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay.VerifyMetaDataCopyrightInfoDisplay(TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay@418e7838</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip.VerifyMetadataENoEpisodeClip()'><b>VerifyMetadataENoEpisodeClip</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMetadataENoEpisodeClip(PGShowVideoDetailPage.java:1028)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip.VerifyMetadataENoEpisodeClip(TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace64707465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace64707465'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMetadataENoEpisodeClip(PGShowVideoDetailPage.java:1028)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip.VerifyMetadataENoEpisodeClip(TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip@3c419631</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink.VerifyMetatagsmartlink()'><b>VerifyMetatagsmartlink</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMetatagsmartlink(PGShowVideoDetailPage.java:233)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink.VerifyMetatagsmartlink(TCShowVideoDetailPage_VerifyMetatagsmartlink.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace42832162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace42832162'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyMetatagsmartlink(PGShowVideoDetailPage.java:233)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink.VerifyMetatagsmartlink(TCShowVideoDetailPage_VerifyMetatagsmartlink.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink@3ba9ad43</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail.VerifyOGTagForURLVideoDetail()'><b>VerifyOGTagForURLVideoDetail</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyOGTagForURLVideoDetail(PGShowVideoDetailPage.java:826)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail.VerifyOGTagForURLVideoDetail(TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace768412033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace768412033'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyOGTagForURLVideoDetail(PGShowVideoDetailPage.java:826)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail.VerifyOGTagForURLVideoDetail(TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail@4b5d6a01</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode.VerifySNLEpisode()'><b>VerifySNLEpisode</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifySNLEpisode(PGShowVideoDetailPage.java:294)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode.VerifySNLEpisode(TCShowVideoDetailPage_VerifySNLEpisode.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace444411655", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace444411655'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifySNLEpisode(PGShowVideoDetailPage.java:294)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode.VerifySNLEpisode(TCShowVideoDetailPage_VerifySNLEpisode.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode@49d904ec</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage.VerifyScrollSizeForVODPage()'><b>VerifyScrollSizeForVODPage</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 747938bea85203bbcd3c2d7a8c409a62
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyScrollSizeForVODPage(PGLivePage.java:2185)
+	at com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage.VerifyScrollSizeForVODPage(TCLivePage_VerifyScrollSizeForVODPage.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1895296996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1895296996'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 747938bea85203bbcd3c2d7a8c409a62
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGLivePage.VerifyScrollSizeForVODPage(PGLivePage.java:2185)
+	at com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage.VerifyScrollSizeForVODPage(TCLivePage_VerifyScrollSizeForVODPage.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>20</td>
+<td>com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage@76908cc0</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSearch_VerifySearchResults.VerifySearchResults()'><b>VerifySearchResults</b><br>Test class: com.nbcd.Test.TCSearch_VerifySearchResults</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGSearch.VerifySearchResults(PGSearch.java:248)
+	at com.nbcd.Test.TCSearch_VerifySearchResults.VerifySearchResults(TCSearch_VerifySearchResults.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1929416257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1929416257'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGSearch.VerifySearchResults(PGSearch.java:248)
+	at com.nbcd.Test.TCSearch_VerifySearchResults.VerifySearchResults(TCSearch_VerifySearchResults.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCSearch_VerifySearchResults@2f7c2f4f</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos.VerifySeasonsSortingforClassicVideos()'><b>VerifySeasonsSortingforClassicVideos</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifySeasonsSortingforClassicVideos(PGShowVideoDetailPage.java:1257)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos.VerifySeasonsSortingforClassicVideos(TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1217858713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1217858713'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifySeasonsSortingforClassicVideos(PGShowVideoDetailPage.java:1257)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos.VerifySeasonsSortingforClassicVideos(TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos@61230f6a</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCActivationPage_VerifySucessPage.VerifySucessPage()'><b>VerifySucessPage</b><br>Test class: com.nbcd.Test.TCActivationPage_VerifySucessPage</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 8ab7733cb16e73f745bb810e0a98bc46
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGActivationPage.VerifySucessPage(PGActivationPage.java:745)
+	at com.nbcd.Test.TCActivationPage_VerifySucessPage.VerifySucessPage(TCActivationPage_VerifySucessPage.java:26)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1935470606", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1935470606'><pre>org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;LTUS43208&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461591 (62ebf098771772..., userDataDir: C:\Users\490544\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 58.0.3029.110, webStorageEnabled: true}
+Session ID: 8ab7733cb16e73f745bb810e0a98bc46
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:486)
+	at com.nbcd.Pages.PGActivationPage.VerifySucessPage(PGActivationPage.java:745)
+	at com.nbcd.Test.TCActivationPage_VerifySucessPage.VerifySucessPage(TCActivationPage_VerifySucessPage.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>212</td>
+<td>com.nbcd.Test.TCActivationPage_VerifySucessPage@3e2e18f2</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened.VerifyVideoDetailPageOpened()'><b>VerifyVideoDetailPageOpened</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyVideoDetailPageOpened(PGShowVideoDetailPage.java:68)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened.VerifyVideoDetailPageOpened(TCShowVideoDetailPage_VerifyVideoDetailPageOpened.java:27)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1457891212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1457891212'><pre>java.lang.NullPointerException
+	at com.nbcd.Pages.PGShowVideoDetailPage.VerifyVideoDetailPageOpened(PGShowVideoDetailPage.java:68)
+	at com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened.VerifyVideoDetailPageOpened(TCShowVideoDetailPage_VerifyVideoDetailPageOpened.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened@6f96c77</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_applinks.applinks()'><b>applinks</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_applinks</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.applinks(PGShowInnerEpisodes.java:561)
+	at com.nbcd.Test.TCShowInnerEpisode_applinks.applinks(TCShowInnerEpisode_applinks.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1615316689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1615316689'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.applinks(PGShowInnerEpisodes.java:561)
+	at com.nbcd.Test.TCShowInnerEpisode_applinks.applinks(TCShowInnerEpisode_applinks.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_applinks@70e8f8e</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_availablenav.availablenav()'><b>availablenav</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_availablenav</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.availablenav(PGShowInnerEpisodes.java:1054)
+	at com.nbcd.Test.TCShowInnerEpisode_availablenav.availablenav(TCShowInnerEpisode_availablenav.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace614414581", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace614414581'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.availablenav(PGShowInnerEpisodes.java:1054)
+	at com.nbcd.Test.TCShowInnerEpisode_availablenav.availablenav(TCShowInnerEpisode_availablenav.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_availablenav@6e4784bc</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_ehsf.ehsf()'><b>ehsf</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_ehsf</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.ehsf(PGShowInnerEpisodes.java:981)
+	at com.nbcd.Test.TCShowInnerEpisode_ehsf.ehsf(TCShowInnerEpisode_ehsf.java:20)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1978059636", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1978059636'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.ehsf(PGShowInnerEpisodes.java:981)
+	at com.nbcd.Test.TCShowInnerEpisode_ehsf.ehsf(TCShowInnerEpisode_ehsf.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_ehsf@5a63f509</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_eptitledescan.eptitledescan()'><b>eptitledescan</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_eptitledescan</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.eptitledescan(PGShowInnerEpisodes.java:814)
+	at com.nbcd.Test.TCShowInnerEpisode_eptitledescan.eptitledescan(TCShowInnerEpisode_eptitledescan.java:20)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace723322261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace723322261'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.eptitledescan(PGShowInnerEpisodes.java:814)
+	at com.nbcd.Test.TCShowInnerEpisode_eptitledescan.eptitledescan(TCShowInnerEpisode_eptitledescan.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_eptitledescan@5bd03f44</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_schemaorgs.schemaorg()'><b>schemaorg</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_schemaorgs</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.schemaorg(PGShowInnerEpisodes.java:730)
+	at com.nbcd.Test.TCShowInnerEpisode_schemaorgs.schemaorg(TCShowInnerEpisode_schemaorgs.java:18)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1605670321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1605670321'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.schemaorg(PGShowInnerEpisodes.java:730)
+	at com.nbcd.Test.TCShowInnerEpisode_schemaorgs.schemaorg(TCShowInnerEpisode_schemaorgs.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_schemaorgs@17046283</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_seo.seo()'><b>seo</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_seo</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.seo(PGShowInnerEpisodes.java:909)
+	at com.nbcd.Test.TCShowInnerEpisode_seo.seo(TCShowInnerEpisode_seo.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1789737323", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1789737323'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.seo(PGShowInnerEpisodes.java:909)
+	at com.nbcd.Test.TCShowInnerEpisode_seo.seo(TCShowInnerEpisode_seo.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_seo@29626d54</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_sorryvideo.sorryvideo()'><b>sorryvideo</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_sorryvideo</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.sorryvideo(PGShowInnerEpisodes.java:1206)
+	at com.nbcd.Test.TCShowInnerEpisode_sorryvideo.sorryvideo(TCShowInnerEpisode_sorryvideo.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace405681143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace405681143'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.sorryvideo(PGShowInnerEpisodes.java:1206)
+	at com.nbcd.Test.TCShowInnerEpisode_sorryvideo.sorryvideo(TCShowInnerEpisode_sorryvideo.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_sorryvideo@e056f20</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_titledescan.titledescan()'><b>titledescan</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_titledescan</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.titledescan(PGShowInnerEpisodes.java:479)
+	at com.nbcd.Test.TCShowInnerEpisode_titledescan.titledescan(TCShowInnerEpisode_titledescan.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1808888867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1808888867'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.titledescan(PGShowInnerEpisodes.java:479)
+	at com.nbcd.Test.TCShowInnerEpisode_titledescan.titledescan(TCShowInnerEpisode_titledescan.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_titledescan@2e4b8173</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCGlobalHomePage_titledescan.titledescan()'><b>titledescan</b><br>Test class: com.nbcd.Test.TCGlobalHomePage_titledescan</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGGlobalHomePage.titledescan(PGGlobalHomePage.java:709)
+	at com.nbcd.Test.TCGlobalHomePage_titledescan.titledescan(TCGlobalHomePage_titledescan.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1742601249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1742601249'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGGlobalHomePage.titledescan(PGGlobalHomePage.java:709)
+	at com.nbcd.Test.TCGlobalHomePage_titledescan.titledescan(TCGlobalHomePage_titledescan.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>16</td>
+<td>com.nbcd.Test.TCGlobalHomePage_titledescan@57c758ac</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowInnerEpisode_urlredirect.urlredirect()'><b>urlredirect</b><br>Test class: com.nbcd.Test.TCShowInnerEpisode_urlredirect</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.urlredirect(PGShowInnerEpisodes.java:1158)
+	at com.nbcd.Test.TCShowInnerEpisode_urlredirect.urlredirect(TCShowInnerEpisode_urlredirect.java:18)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace98601765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace98601765'><pre>java.lang.IndexOutOfBoundsException: Index: 41, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.nbcd.Pages.PGShowInnerEpisodes.urlredirect(PGShowInnerEpisodes.java:1158)
+	at com.nbcd.Test.TCShowInnerEpisode_urlredirect.urlredirect(TCShowInnerEpisode_urlredirect.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.nbcd.Test.TCShowInnerEpisode_urlredirect@34b7ac2f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nbcd.Test.TCContactUsCreateRequest.CreateContactUsRequest()'><b>CreateContactUsRequest</b><br>Test class: com.nbcd.Test.TCContactUsCreateRequest</td>
+<td></td>
+<td>26</td>
+<td>com.nbcd.Test.TCContactUsCreateRequest@6af93788</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback.CreateContactUsRequestIhaveFeedback()'><b>CreateContactUsRequestIhaveFeedback</b><br>Test class: com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback</td>
+<td></td>
+<td>27</td>
+<td>com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback@ef9296d</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags.FB_SNLTags()'><b>FB_SNLTags</b><br>Test class: com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags</td>
+<td></td>
+<td>33</td>
+<td>com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags@778d1062</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCGlobalHomePage_BannerAd.Global_BannerAd()'><b>Global_BannerAd</b><br>Test class: com.nbcd.Test.TCGlobalHomePage_BannerAd</td>
+<td></td>
+<td>36</td>
+<td>com.nbcd.Test.TCGlobalHomePage_BannerAd@353d0772</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link.SchedulePage_Verify_Show_NameLink()'><b>SchedulePage_Verify_Show_NameLink</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link</td>
+<td></td>
+<td>83</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link@48aaecc3</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAllVideosPage_Episodes_Sorted.TCAllVideosPage_EpisodesSorted()'><b>TCAllVideosPage_EpisodesSorted</b><br>Test class: com.nbcd.Test.TCAllVideosPage_Episodes_Sorted</td>
+<td></td>
+<td>37</td>
+<td>com.nbcd.Test.TCAllVideosPage_Episodes_Sorted@4386f16</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements.TCAllVideosPage_MetadataEnhancements()'><b>TCAllVideosPage_MetadataEnhancements</b><br>Test class: com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements</td>
+<td></td>
+<td>40</td>
+<td>com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements@2ea227af</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAllVideosPage_Meta_tag.TCAllVideosPage_metatag()'><b>TCAllVideosPage_metatag</b><br>Test class: com.nbcd.Test.TCAllVideosPage_Meta_tag</td>
+<td></td>
+<td>26</td>
+<td>com.nbcd.Test.TCAllVideosPage_Meta_tag@79b06cab</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAllVideosPage_redirect_rules.TCAllVideosPage_redirectrules()'><b>TCAllVideosPage_redirectrules</b><br>Test class: com.nbcd.Test.TCAllVideosPage_redirect_rules</td>
+<td></td>
+<td>157</td>
+<td>com.nbcd.Test.TCAllVideosPage_redirect_rules@78e117e3</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page.TCAllVideosPage_video_Landing_Page()'><b>TCAllVideosPage_video_Landing_Page</b><br>Test class: com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page</td>
+<td></td>
+<td>36</td>
+<td>com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page@4690b489</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCAllVideosPage_video_detail_page.TCAllVideosPage_video_detailpage()'><b>TCAllVideosPage_video_detailpage</b><br>Test class: com.nbcd.Test.TCAllVideosPage_video_detail_page</td>
+<td></td>
+<td>28</td>
+<td>com.nbcd.Test.TCAllVideosPage_video_detail_page@363ee3a2</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character.TCCreditDetailsPage_Verify_Credit_As_Character()'><b>TCCreditDetailsPage_Verify_Credit_As_Character</b><br>Test class: com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character</td>
+<td></td>
+<td>37</td>
+<td>com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character@460d0a57</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone.TCCreditDetailsPage_Verify_Credit_Role_Everyone()'><b>TCCreditDetailsPage_Verify_Credit_Role_Everyone</b><br>Test class: com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone</td>
+<td></td>
+<td>86</td>
+<td>com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone@47d90b9e</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character.TCCreditLandingPage_Verify_Credit_Role_Character()'><b>TCCreditLandingPage_Verify_Credit_Role_Character</b><br>Test class: com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character</td>
+<td></td>
+<td>60</td>
+<td>com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character@3eb7fc54</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach.TCCreditLandingPage_Verify_Credit_Role_Coach()'><b>TCCreditLandingPage_Verify_Credit_Role_Coach</b><br>Test class: com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach</td>
+<td></td>
+<td>46</td>
+<td>com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach@7f552bd3</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant.TCCreditLandingPage_Verify_Credit_Role_Contestant()'><b>TCCreditLandingPage_Verify_Credit_Role_Contestant</b><br>Test class: com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant</td>
+<td></td>
+<td>56</td>
+<td>com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant@3c22fc4c</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline.TCSchedulePage_VerifySchedulePageTimeline()'><b>TCSchedulePage_VerifySchedulePageTimeline</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline</td>
+<td></td>
+<td>28</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline@7adda9cc</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation.TCSchedulePage_Verify_Schedule_HeaderNavigation()'><b>TCSchedulePage_Verify_Schedule_HeaderNavigation</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation</td>
+<td></td>
+<td>17</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation@5c909414</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Loading_Data_for_Day.TCSchedulePage_Verify_Schedule_Loading_DataforDay()'><b>TCSchedulePage_Verify_Schedule_Loading_DataforDay</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Loading_Data_for_Day</td>
+<td></td>
+<td>56</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Loading_Data_for_Day@4ddced80</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile.TCSchedulePage_Verify_Schedule_PageTitile()'><b>TCSchedulePage_Verify_Schedule_PageTitile</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile</td>
+<td></td>
+<td>28</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile@433d61fb</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Append_Url.TCSchedulePage_Verify_Schedule_Page_AppendUrl()'><b>TCSchedulePage_Verify_Schedule_Page_AppendUrl</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Append_Url</td>
+<td></td>
+<td>80</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Append_Url@4b14c583</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show.TCSchedulePage_Verify_Schedule_Page_Watch_LiveShow()'><b>TCSchedulePage_Verify_Schedule_Page_Watch_LiveShow</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show</td>
+<td></td>
+<td>22</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show@1534f01b</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section.TCSchedulePage_Verify_Schedule_Section_Page()'><b>TCSchedulePage_Verify_Schedule_Section_Page</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section</td>
+<td></td>
+<td>72</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section@5cee5251</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags.TwitterTags()'><b>TwitterTags</b><br>Test class: com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags</td>
+<td></td>
+<td>34</td>
+<td>com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags@2b6faea6</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails.VerifyAuthFrameDetails()'><b>VerifyAuthFrameDetails</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails</td>
+<td></td>
+<td>150</td>
+<td>com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails@7ce3cb8e</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCContactUsPage.VerifyErrMsgInvalidEmailId()'><b>VerifyErrMsgInvalidEmailId</b><br>Test class: com.nbcd.Test.TCContactUsPage</td>
+<td></td>
+<td>17</td>
+<td>com.nbcd.Test.TCContactUsPage@149e0f5d</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode.VerifyErrorMessageInvalidcode()'><b>VerifyErrorMessageInvalidcode</b><br>Test class: com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode</td>
+<td></td>
+<td>32</td>
+<td>com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode@4c9f8c13</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut.VerifyFullListViewLayOut()'><b>VerifyFullListViewLayOut</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut</td>
+<td></td>
+<td>96</td>
+<td>com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut@659a969b</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD.VerifyFullListViewLayOutVOD()'><b>VerifyFullListViewLayOutVOD</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD</td>
+<td></td>
+<td>73</td>
+<td>com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD@2473d930</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCActivationPage_VerifyGeneralLayout.VerifyGeneralLayout()'><b>VerifyGeneralLayout</b><br>Test class: com.nbcd.Test.TCActivationPage_VerifyGeneralLayout</td>
+<td></td>
+<td>39</td>
+<td>com.nbcd.Test.TCActivationPage_VerifyGeneralLayout@769f71a9</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData.VerifyInvalidAndValidData()'><b>VerifyInvalidAndValidData</b><br>Test class: com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData</td>
+<td></td>
+<td>37</td>
+<td>com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData@49b0b76</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer.VerifyLiveStreamNavigationForLoggedUer()'><b>VerifyLiveStreamNavigationForLoggedUer</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer</td>
+<td></td>
+<td>228</td>
+<td>com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer@69b2283a</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyMVPDListPicker.VerifyMVPDListPicker()'><b>VerifyMVPDListPicker</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyMVPDListPicker</td>
+<td></td>
+<td>207</td>
+<td>com.nbcd.Test.TCLivePage_VerifyMVPDListPicker@78b66d36</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated.VerifyNavigationLiveStreamNotAuthenticated()'><b>VerifyNavigationLiveStreamNotAuthenticated</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated</td>
+<td></td>
+<td>27</td>
+<td>com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated@22a637e7</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton.VerifyOneResultEnterButton()'><b>VerifyOneResultEnterButton</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton</td>
+<td></td>
+<td>73</td>
+<td>com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton@35047d03</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCPhotoDetailsPage.VerifyPhotoDetails_Page()'><b>VerifyPhotoDetails_Page</b><br>Test class: com.nbcd.Test.TCPhotoDetailsPage</td>
+<td></td>
+<td>43</td>
+<td>com.nbcd.Test.TCPhotoDetailsPage@1184ab05</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut.VerifyPostSuccessMsgFadeOut()'><b>VerifyPostSuccessMsgFadeOut</b><br>Test class: com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut</td>
+<td></td>
+<td>144</td>
+<td>com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut@5223e5ee</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_VerifySEO.VerifySEOmetatags()'><b>VerifySEOmetatags</b><br>Test class: com.nbcd.Test.TCSchedulePage_VerifySEO</td>
+<td></td>
+<td>31</td>
+<td>com.nbcd.Test.TCSchedulePage_VerifySEO@3967e60c</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCContactVerifySelectTopicListItems.VerifySelectTopicListItems()'><b>VerifySelectTopicListItems</b><br>Test class: com.nbcd.Test.TCContactVerifySelectTopicListItems</td>
+<td></td>
+<td>27</td>
+<td>com.nbcd.Test.TCContactVerifySelectTopicListItems@36c88a32</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCActivationPage_VerifyURLPathingRoutingactivation.VerifyURLPathingRoutingactivation()'><b>VerifyURLPathingRoutingactivation</b><br>Test class: com.nbcd.Test.TCActivationPage_VerifyURLPathingRoutingactivation</td>
+<td></td>
+<td>52</td>
+<td>com.nbcd.Test.TCActivationPage_VerifyURLPathingRoutingactivation@5ae50ce6</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting.VerifyVideosSeasonlistSorting()'><b>VerifyVideosSeasonlistSorting</b><br>Test class: com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting</td>
+<td></td>
+<td>40</td>
+<td>com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting@be64738</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now.VerifyWatchLiveShow()'><b>VerifyWatchLiveShow</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now</td>
+<td></td>
+<td>34</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now@60d8c9b7</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad.Verify_300_250_Display_Ad()'><b>Verify_300_250_Display_Ad</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad</td>
+<td></td>
+<td>35</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad@794cb805</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_About_Section.Verify_About_Section()'><b>Verify_About_Section</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_About_Section</td>
+<td></td>
+<td>30</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_About_Section@20d28811</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_About_The_Show.Verify_About_The_Show()'><b>Verify_About_The_Show</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_About_The_Show</td>
+<td></td>
+<td>24</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_About_The_Show@96def03</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner.Verify_Ad_Banner()'><b>Verify_Ad_Banner</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner</td>
+<td></td>
+<td>32</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner@1f3f4916</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule.Verify_Add_Guest_Schedule()'><b>Verify_Add_Guest_Schedule</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule</td>
+<td></td>
+<td>43</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule@4b5a5ed1</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical.Verify_Description_Canonical()'><b>Verify_Description_Canonical</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical</td>
+<td></td>
+<td>37</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical@59d016c9</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_VerifyThe300x250_Display_Ad.Verify_Display_Ad()'><b>Verify_Display_Ad</b><br>Test class: com.nbcd.Test.TCShowHomePage_VerifyThe300x250_Display_Ad</td>
+<td></td>
+<td>35</td>
+<td>com.nbcd.Test.TCShowHomePage_VerifyThe300x250_Display_Ad@670002</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide.Verify_Dynamic_Lead_Slide()'><b>Verify_Dynamic_Lead_Slide</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide</td>
+<td></td>
+<td>20</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide@6e0dec4a</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section.Verify_Latest_Clips_Section()'><b>Verify_Latest_Clips_Section</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section</td>
+<td></td>
+<td>136</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section@5ccddd20</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar.Verify_Responsive_Navigation_Bar()'><b>Verify_Responsive_Navigation_Bar</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar</td>
+<td></td>
+<td>28</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar@3cc2931c</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_Show_Name.Verify_Show_Name()'><b>Verify_Show_Name</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_Show_Name</td>
+<td></td>
+<td>36</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_Show_Name@56528192</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section.Verify_full_Episode_section()'><b>Verify_full_Episode_section</b><br>Test class: com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section</td>
+<td></td>
+<td>100</td>
+<td>com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section@1ed1993a</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink.Verify_visitSiteLink()'><b>Verify_visitSiteLink</b><br>Test class: com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink</td>
+<td></td>
+<td>30</td>
+<td>com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink@7c0c77c7</td></tr>
+<tr>
+<td title='com.nbcd.Test.TCShowHomePage_VerifymetaTags.metaTags()'><b>metaTags</b><br>Test class: com.nbcd.Test.TCShowHomePage_VerifymetaTags</td>
+<td></td>
+<td>52</td>
+<td>com.nbcd.Test.TCShowHomePage_VerifymetaTags@1f0f1111</td></tr>
+</table><p>
+</body>
+</html>

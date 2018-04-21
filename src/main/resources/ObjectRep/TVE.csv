@@ -1,0 +1,74 @@
+ObjectName,ObjectProperties,SearchType
+ShowbtnClick,div.sticky-outer-wrapper div.sticky-inner-wrapper nav.navigation div.navigation__inner ul.navigation__list li:nth-child(2) a.navigation__item__link span,cssSelector
+ShowDetailShowsMenu,ul.navigation__item__list,cssselector
+Authcode,div.card__icon.icon-play--auth,cssSelector
+LoadButton,div.load-button.full-width,cssSelector
+TVProvider,section.fork-picker__mvpd button span span,cssSelector
+OptimumTV,div.mvpd-dialog__providers a:nth-child(8),cssSelector
+UserName,input#IDToken1,cssSelector
+Password,input#IDToken2,cssSelector
+SignIn,img#signin_button,cssSelector
+Logoclick,ul.navigation__list li.navigation__item.navigation__item--identity.navigation__item--account,cssSelector
+Unlink,a.mvpd__signout,cssSelector
+Xfinity ,div.mvpd-dialog__providers a:nth-child(1),cssSelector
+DIRECTV ,div.mvpd-dialog__providers a:nth-child(2) img,cssSelector
+Dish ,div.mvpd-dialog__providers a:nth-child(3),cssSelector
+ TimeWarnerCable ,div.mvpd-dialog__providers a:nth-child(4),cssSelector
+Verizon ,div.mvpd-dialog__providers a:nth-child(4),cssSelector
+AT&T Uverse,div.mvpd-dialog__providers a:nth-child(5),cssSelector
+Cox ,div.mvpd-dialog__providers a:nth-child(6),cssSelector
+CharterSpectrum,div.mvpd-dialog__providers a:nth-child(7),cssSelector
+BrightHouse,div.mvpd-dialog__providers a:nth-child(11),cssSelector
+Suddenlink ,div.mvpd-dialog__providers a:nth-child(9),cssSelector
+MediaCom,div.mvpd-dialog__providers a:nth-child(10),cssSelector
+WOW ,div.mvpd-dialog__providers a:nth-child(12),cssSelector
+RCN ,div.mvpd-dialog__providers a:nth-child(13),cssSelector
+xfuname,input#user,cssSelector
+xfpsd,input#passwd,cssSelector
+xfsignin,button#sign_in.submit,cssSelector
+DtvUname,body > div.iframeBox > div.mainSubHd > form > div.mainLoginBox > fieldset.inputFieldset input#usernameInputId.inputFieldEmail,cssSelector
+DtvPsd,body > div.iframeBox > div.mainSubHd > form > div.mainLoginBox > fieldset.inputFieldsetPassword > fieldset:nth-child(2) > input.inputFieldPass,cssSelector
+DtvSignin,input#loginSubmitId.loginBtn,cssSelector
+DishUname,*[placeholder='Online ID'],cssSelector
+DishPsd,*[placeholder='Password'],cssSelector
+DishSignin,div.form button,cssSelector
+twcuname,div.mainContentWrapper form#loginForm  input[id=loginFormUsername],cssSelector
+twcpasd,div.mainContentWrapper form#loginForm  input[id=loginFormPassword],cssSelector
+twcSignIn,button.ctaButton span,cssSelector
+VeriUname,input#IDToken1,cssSelector
+VeriPsd,input#IDToken2,cssSelector
+VeriLogin,button#tvloginsignin.button.left.signin,cssSelector
+attuname,input#nameBox.slidTxtbox,cssSelector
+attpsd,input#pwdBox.slidTxtbox,cssSelector
+attlogin,input#submitLogin.loginBtn,cssSelector
+cox uname,"div.pf-constrain-width table tbody tr td table tbody tr td form input[type=""text""]:nth-child(3)",cssSelector
+cox psd,"div.pf-constrain-width table tbody tr td table tbody tr td form input[type=""password""]:nth-child(7)",cssSelector
+coxsignin,"div.pf-constrain-width table tbody tr td table tbody tr td form input[type=""image""]:nth-child(15)",cssSelector
+CharterSpectrumuname,input#IDToken1.form-control,cssSelector
+CharterSpectrumpsd,input#IDToken2.form-control,cssSelector
+CharterSpectrumlogin,button#submint_btn.sign-in-button,cssSelector
+bhspecuname,input#loginFormUsername,cssSelector
+bhspecpsd,input#loginFormPassword,cssSelector
+bhspeclogin,div#content div#body div.mainContentWrapper form#loginForm button.ctaButton span,cssSelector
+suddenlinkuname,input#username.input,cssSelector
+suddenlinkpsd,input#password.input,cssSelector
+suddenlinklogin,button#login.login,cssSelector
+mediacomuname,input#username,cssSelector
+mediacompsd,input#password,cssSelector
+mediacomlogin,a.ping-button.normal span,cssSelector
+wowuname,input#username.input,cssSelector
+wowpsd,input#password.input,cssSelector
+wowlogin,button#login.login,cssSelector
+Rcnuname,input#username,cssSelector
+Rcnpsd,input#password,cssSelector
+RcnLogin,body div:nth-child(5) div div:nth-child(2) div:nth-child(2) div.col-xs-12.col-sm-4.col-sm-offset-2 form input.btn.green.pull-right,cssSelector
+RCNclick,input#rememberCheckboxId,cssSelector
+dishclick,span.remember input,cssSelector
+twcclick,input#loginFormRemember ,cssSelector
+Verizonclick,div.columns p.text-large.padding-top-small,cssSelector
+Charspecclick,span.custom-control-indicator,cssSelector
+wowclick,span.remember,cssSelector
+directclick,input#rememberCheckboxId,cssSelector
+bhclick,input#loginFormRemember,cssSelector
+Live,div > div > header > div > div > nav > div > ul > li.navigation__item.navigation__item--live > a > span,cssSelector
+ATTImg,ul.navigation__list li.navigation__item.navigation__item--identity.navigation__item--account img,cssSelector

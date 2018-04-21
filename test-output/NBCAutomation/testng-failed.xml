@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [NBCAutomation]" parallel="classes">
+  <test thread-count="1" name="NBCAutomation(failed)" parallel="classes">
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="osversion" value="7"/>
+    <parameter name="version" value="63"/>
+    <classes>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_LoadMore_NBCRESP_1344">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="LoadMore"/>
+          <include name="afterSuite"/>
+          <include name="getBrowser"/>
+          <include name="getResult"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowInnerEpisode_LoadMore_NBCRESP_1344 -->
+    </classes>
+  </test> <!-- NBCAutomation(failed) -->
+</suite> <!-- Failed suite [NBCAutomation] -->
